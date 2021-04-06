@@ -41,7 +41,7 @@ def selection_sort_b(ar):
     pass # replace this
 
 items = [77, 94, 4, 12, 33, 54, 66, 19, 8, 83]
-items_copy = items
+items_copy = list(items)
 print("Original list")
 print(items)
 

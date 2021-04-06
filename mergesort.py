@@ -98,7 +98,7 @@ def merge_b(items, temp_list, low, mid, high):
     pass # replace this
 
 items = [77, 94, 4, 12, 33, 54, 66, 19, 8, 83]
-items_copy = items
+items_copy = list(items)
 print("Original list")
 print(items)
 
